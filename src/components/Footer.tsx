@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Quote } from 'lucide-react';
 
 const concepts = ['Growth', 'Funnels', 'Automation', 'Clients', 'Leads'];
 
@@ -54,7 +55,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center space-x-2 mb-4">
-            <img src="/assets/image.png" alt="Slatebound" className="h-8 w-auto" />
+            <img src="/image.png" alt="Slatebound" className="h-8 w-auto" />
             <span className="text-white font-display text-xl font-bold">SLATEBOUND</span>
           </div>
 

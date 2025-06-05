@@ -26,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center md:hidden">
           <a href="#" className="flex items-center space-x-2">
-            <img src="/assets/image.png" alt="Slatebound" className="h-8 w-auto" />
+            <img src="/image.png" alt="Slatebound" className="h-8 w-auto" />
             <span className="text-white font-display text-xl font-bold">SLATEBOUND</span>
           </a>
 
@@ -38,7 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex justify-center items-center space-x-8">
           <a href="#" className="flex items-center space-x-2">
-            <img src="/assets/image.png" alt="Slatebound" className="h-8 w-auto" />
+            <img src="/image.png" alt="Slatebound" className="h-8 w-auto" />
             <span className="text-white font-display text-xl font-bold">SLATEBOUND</span>
           </a>
           <Button href="#contact" variant="primary" size="md">
