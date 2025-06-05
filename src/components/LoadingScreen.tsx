@@ -21,13 +21,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isLoading }) => {
             <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-secondary-600/20 rounded-full filter blur-3xl"></div>
             <div className="relative flex flex-col items-center">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="h-12 w-12">
-                  <svg width="48" height="48" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="32" height="32" rx="8" fill="#050714"/>
-                    <path d="M8 10L14 10C15.1046 10 16 10.8954 16 12L16 20C16 21.1046 15.1046 22 14 22L8 22L8 10Z" fill="#6D28D9"/>
-                    <path d="M18 10L24 10L24 22L18 22C16.8954 22 16 21.1046 16 20L16 12C16 10.8954 16.8954 10 18 10Z" fill="#3B82F6"/>
-                  </svg>
-                </div>
+                <img src="/assets/image.png" alt="Slatebound" className="h-12 w-auto" />
                 <span className="text-white font-display text-2xl font-bold">SLATEBOUND</span>
               </div>
               <div className="w-48 h-0.5 bg-dark-300 rounded-full overflow-hidden">

@@ -26,13 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center md:hidden">
           <a href="#" className="flex items-center space-x-2">
-            <div className="h-8 w-8 relative">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="8" fill="#050714"/>
-                <path d="M8 10L14 10C15.1046 10 16 10.8954 16 12L16 20C16 21.1046 15.1046 22 14 22L8 22L8 10Z" fill="#6D28D9"/>
-                <path d="M18 10L24 10L24 22L18 22C16.8954 22 16 21.1046 16 20L16 12C16 10.8954 16.8954 10 18 10Z" fill="#3B82F6"/>
-              </svg>
-            </div>
+            <img src="/assets/image.png" alt="Slatebound" className="h-8 w-auto" />
             <span className="text-white font-display text-xl font-bold">SLATEBOUND</span>
           </a>
 
@@ -44,13 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex justify-center items-center space-x-8">
           <a href="#" className="flex items-center space-x-2">
-            <div className="h-8 w-8 relative">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="8" fill="#050714"/>
-                <path d="M8 10L14 10C15.1046 10 16 10.8954 16 12L16 20C16 21.1046 15.1046 22 14 22L8 22L8 10Z" fill="#6D28D9"/>
-                <path d="M18 10L24 10L24 22L18 22C16.8954 22 16 21.1046 16 20L16 12C16 10.8954 16.8954 10 18 10Z" fill="#3B82F6"/>
-              </svg>
-            </div>
+            <img src="/assets/image.png" alt="Slatebound" className="h-8 w-auto" />
             <span className="text-white font-display text-xl font-bold">SLATEBOUND</span>
           </a>
           <Button href="#contact" variant="primary" size="md">
