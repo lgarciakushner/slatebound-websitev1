@@ -52,7 +52,7 @@ const Process: React.FC = () => {
     {
       icon: <Target size={24} />,
       title: 'Specialization > Generalization',
-      description: "We don't do everything. We do what works.\nAds, funnels, automations only for the industries we know best.\nThat's how we guarantee results.",
+      description: "We don't do everything. We do what works.\nAds, funnels, automations only for the industries we know best.\nThat's how we force success.",
     },
     {
       icon: <Zap size={24} />,

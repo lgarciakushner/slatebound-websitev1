@@ -38,25 +38,25 @@ const Services: React.FC = () => {
     {
       icon: <User size={24} />,
       title: 'Do it all yourself?',
-      description: 'Sure, if you\'ve got unlimited time, energy, and zero clients.\nBut when marketing isn\'t the top priority, it gets half-assed.\nNot scalable nor sustainable… Unless you want to become a full-time marketer.',
+      description: "You could... if you've got zero clients and nothing but time. But once business picks up? Marketing gets shoved to the back. Things fall through the cracks. Leads dry up. And now you're working overtime just to stay stuck.",
       delay: 1
     },
     {
       icon: <Wrench size={24} />,
       title: 'Hire in-house?',
-      description: 'Good luck finding someone who actually knows what they\'re doing.\nTraining takes time. Payroll adds pressure.\nAnd if they leave in 3 months, you\'re back to square one.',
+      description: "Hope you like stress because finding someone good is already hard. Training takes time. Then they quit in 3 months… and you're back to square one, burned out and behind.",
       delay: 2
     },
     {
       icon: <DollarSign size={24} />,
       title: 'Hire an agency?',
-      description: 'Unless you\'re paying $10k+ a month, you\'ll end up being \'Client #47\' on some junior account manager\'s list.\n1 year on \'delivered.\' Low attention. Zero proven systems.',
+      description: "Unless you're paying $10K+ p/month, you're just another number like \"Client #53\". Some random intern runs your account, sends weird late reports, and calls it a win. No real growth. No proven systems.",
       delay: 3
     },
     {
       icon: <Bot size={24} />,
-      title: 'Learn automations and AI?',
-      description: 'AI is ever evolving, new tools are coming each day.\nYou could spend weeks figuring out all the no-code tools and systems...\nBut let\'s be honest, they are confusing.',
+      title: 'Learn AI and automations?',
+      description: "Sounds smart, until you're stuck watching YouTube videos at 2AM. New tools pop up every day. Most are confusing as hell. And unless you've got weeks to figure it out, it's a full-time job. Spoiler: You already have one.",
       delay: 4
     }
   ];
