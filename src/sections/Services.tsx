@@ -63,23 +63,20 @@ const Services: React.FC = () => {
 
   return (
     <Section id="services" className="relative">
-      <div className="absolute inset-0 bg-dark-500/95"></div>
-      <div className="relative z-10">
-        <SectionHeader
-          title="So… How Do You Actually Get the Most Out of Your Marketing?"
-        />
+      <SectionHeader
+        title="So… How Do You Actually Get the Most Out of Your Marketing?"
+      />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-          {services.map((service, index) => (
-            <ServiceCard
-              key={index}
-              icon={service.icon}
-              title={service.title}
-              description={service.description}
-              delay={service.delay}
-            />
-          ))}
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        {services.map((service, index) => (
+          <ServiceCard
+            key={index}
+            icon={service.icon}
+            title={service.title}
+            description={service.description}
+            delay={service.delay}
+          />
+        ))}
       </div>
     </Section>
   );

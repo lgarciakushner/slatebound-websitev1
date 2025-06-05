@@ -5,8 +5,7 @@ import Section from '../components/ui/Section';
 const Marketing: React.FC = () => {
   return (
     <Section className="relative">
-      <div className="absolute inset-0 bg-dark-500/95"></div>
-      <div className="container mx-auto px-4 md:px-6 text-center relative z-10">
+      <div className="container mx-auto px-4 md:px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className="relative min-h-screen flex items-center pt-20 pb-20 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-32 md:pt-20 pb-20 overflow-hidden"
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-dark-600 bg-grid-pattern opacity-40"></div>
