@@ -21,7 +21,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isLoading }) => {
             <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-secondary-600/20 rounded-full filter blur-3xl"></div>
             <div className="relative flex flex-col items-center">
               <div className="flex items-center space-x-3 mb-6">
-                <img src="/assets/image.png" alt="Slatebound" className="h-12 w-auto" />
+                <img src="/image.png" alt="Slatebound" className="h-12 w-auto" />
                 <span className="text-white font-display text-2xl font-bold">SLATEBOUND</span>
               </div>
               <div className="w-48 h-0.5 bg-dark-300 rounded-full overflow-hidden">
